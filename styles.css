@@ -12,15 +12,22 @@ h1 {
   font-size: 5em;
   font-family: Papyrus, fantasy;
 }
+
+.wrapper {
+  width: 100%;
+
+}
+
 aside {
   width: 19%;
   display: inline-block;
 }
+
 nav {
   background-color: #CAFFF4;
   vertical-align: top;
   display: inline-block;
-  
+
 }
 
 nav ul {
@@ -47,26 +54,32 @@ nav ul a {
   color: red;
 }
 
-.wrapper {
-  width: 100%;
+.container {
   display: inline-block;
+  width: 80%;
+  background-color: lightblue;
+  vertical-align: top;
 }
 
 .row-1 {
-  display: inline-block;
-  width: 80%;
-  margin: 0 auto;
-  background-color: lightblue;
-  vertical-align: top;
+  background-color: lightyellow;
+  height: 49%;
+}
+
+.row-2 {
+  background-color: #FFCCCC;
+  height: 49%;
 }
 
 .box {
   display: inline-block;
   width: 25%;
+  overflow: hidden;
   text-align: center;
   padding: 4%;
 }
 
 .box img {
-  max-width: 100%;
+  width: 100%;
+  height: 220px;
 }

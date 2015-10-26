@@ -4,19 +4,26 @@
     <title>Photo Albums</title>
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+
+  <script type="text/html" id="3phottmpl">
+    <div class="box" data-index="">
+      <img src="<%= img %>" alt="" />
+      <h2>%= wife %><</h2>
+    </div>
+  </script>
+
   </head>
   <body>
     <header>
       <h1>My Albums</h1>
   </header>
-  <div class="wrapper"
-
+<div class="wrapper">
   <aside>
     <nav>
       <ul>
-        <li><a href="" rel="album 1">The Wife</a></li>
-        <li><a href="" rel="album 2">Family</a></li>
-        <li><a href="" rel="album 3">Good Friendsl</a></li>
+        <li><a href="" rel="love">The Wife</a></li>
+        <li><a href="" rel="crazyfam">Family</a></li>
+        <li><a href="" rel="album 3">Good Friends</a></li>
         <li><a href="" rel="album 4">Vacation</a></li>
         <li><a href="" rel="album 5">On The Job</a></li>
         <li><a href="" rel="album 6">Old School</a></li>
@@ -24,39 +31,41 @@
     </nav>
   </aside>
 
-  <section class="row-1">
-    <div class="box">
-      <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/11050121_10152640075225723_2619100003322676062_n.jpg?oh=cfe984f07ce3a9800bb122a17bd7aa86&oe=56C21D61" alt="" />
-      <h2>The Wife</h2>
+  <section class="container">
+    <div class="row-1">
+      <div class="box">
+        <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/11050121_10152640075225723_2619100003322676062_n.jpg?oh=cfe984f07ce3a9800bb122a17bd7aa86&oe=56C21D61" alt="" />
+        <h2>The Wife</h2>
+      </div>
+      <div class="box">
+        <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11535700_10206319204213284_2865217785424381702_n.jpg?oh=74e3ebd0ee7d09f115a0675d5ba234bf&oe=56D3651F" alt="" />
+        <h2>Family</h2>
+      </div>
+
+      <div class="box">
+        <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/392483_3580027577385_1928816433_n.jpg?oh=b423fd433229346e05fac264511c5145&oe=5685492E" alt="" />
+        <h2>Good Friends</h2>
+      </div>
     </div>
 
-    <div class="box">
-      <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11535700_10206319204213284_2865217785424381702_n.jpg?oh=74e3ebd0ee7d09f115a0675d5ba234bf&oe=56D3651F" alt="" />
-      <h2>Family</h2>
-    </div>
+    <div class="row-2">
+      <div class="box">
+        <img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/316429_10150476457464348_1085858154_n.jpg?oh=05aec2381798c7df218b16c059a93586&oe=56C623DD" alt="" />
+        <h2>Vacation</h2>
+      </div>
 
-    <div class="box">
-      <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/392483_3580027577385_1928816433_n.jpg?oh=b423fd433229346e05fac264511c5145&oe=5685492E1" alt="" />
-      <h2>Good Friends</h2>
-    </div>
+      <div class="box">
+        <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/282610_3359632109710_1425886322_n.jpg?oh=ad58d64c1a1754ea935792e401cf7a91&oe=56CDBE5D" alt="" />
+        <h2>On The Job</h2>
+      </div>
 
-
-    <div class="box">
-      <img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/316429_10150476457464348_1085858154_n.jpg?oh=05aec2381798c7df218b16c059a93586&oe=56C623DD" alt="" />
-      <h2>Vacation</h2>
-    </div>
-
-    <div class="box">
-      <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/282610_3359632109710_1425886322_n.jpg?oh=ad58d64c1a1754ea935792e401cf7a91&oe=56CDBE5D" alt="" />
-      <h2>On The Job</h2>
-    </div>
-
-    <div class="box">
-      <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-ash2/v/t1.0-9/562743_10151223144429348_1325744716_n.jpg?oh=3e0df475d805e8236c4b69a3ef8ce566&oe=56BE39CC" alt="" />
-      <h2>Old School</h2>
+      <div class="box">
+        <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-ash2/v/t1.0-9/562743_10151223144429348_1325744716_n.jpg?oh=3e0df475d805e8236c4b69a3ef8ce566&oe=56BE39CC" alt="" />
+        <h2>Old School</h2>
+      </div>
     </div>
   </section>
-  </div>
+</div>
 
 
 
