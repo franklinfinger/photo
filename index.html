@@ -5,12 +5,22 @@
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
 
-  <script type="text/html" id="3phottmpl">
+    <script type="text/html" id='landingTmpl'>
+      <div class="box" data-index="">
+        <img src="<%= photo1 %>" alt="" />
+        <h2><%= tag %></h2>
+      </div>
+    </script>
+
+  <script type="text/html" id="phototmpl">
     <div class="box" data-index="">
-      <img src="<%= img %>" alt="" />
-      <h2>%= wife %><</h2>
+      <img src="<%= photo1 %>" alt="" />
+      <img src="<%= photo2 %>" alt="" />
+      <img src="<%= photo3 %>" alt="" />
+      <h2><%= tag %></h2>
     </div>
   </script>
+
 
   </head>
   <body>
@@ -18,15 +28,16 @@
       <h1>My Albums</h1>
   </header>
 <div class="wrapper">
-  <aside>
+  <aside class="sidebar hidden">
     <nav>
       <ul>
+        <li><a href="" rel="love">Home</a></li>
         <li><a href="" rel="love">The Wife</a></li>
         <li><a href="" rel="crazyfam">Family</a></li>
-        <li><a href="" rel="album 3">Good Friends</a></li>
-        <li><a href="" rel="album 4">Vacation</a></li>
-        <li><a href="" rel="album 5">On The Job</a></li>
-        <li><a href="" rel="album 6">Old School</a></li>
+        <li><a href="" rel="bestfriends">Good Friends</a></li>
+        <li><a href="" rel="vacafun">Vacation</a></li>
+        <li><a href="" rel="greatjob">On The Job</a></li>
+        <li><a href="" rel="goodtimes">Old School</a></li>
       </ul>
     </nav>
   </aside>
@@ -82,7 +93,7 @@
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
-    <script src="data.js"></script>
+    <script src="albumall.js"></script>
     <script src="app.js"></script>
     </body>
 </html>

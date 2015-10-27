@@ -26,7 +26,7 @@ var albumall = [
   tag:"Vacation",
   photo1:"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/134749_10150151077899348_5696033_o.jpg",
   photo2:"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/1930581_33945754347_6128_n.jpg?oh=79deff35267dee31e786e9c20585c25a&oe=56CFEA26",
-  photo3:"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xfa1/t31.0-8/218270_10150287870434348_1099203_o.jpg"
+  photo3:"https://scontent-mia1-1.xx.fbcdn.net/hphotos-xfa1/t31.0-8/218270_10150287870434348_1099203_o.jpg",
   name:".vacafun"
 },
 
